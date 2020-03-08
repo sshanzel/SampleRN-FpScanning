@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/LAPI_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/LAPI_hello" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    
+        <Button
+            android:id="@+id/btnOpenDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_OPEN_DEVICE" />
+
+        <Button
+            android:id="@+id/btnCloseDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_CLOSE_DEVICE" />
+    	
+        <Button
+            android:id="@+id/btnGetImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_GET_IMAGE" />
+    
+        <Button
+            android:id="@+id/btnOnVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_VIDEO" />
+
+ 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnCalibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_CALIBRATION" />
+
+        
+        <Button
+            android:id="@+id/btnGetImageQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_GET_IMAGE_QUALITY" />
+ 
+        <Button
+            android:id="@+id/btnGetNFIQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_GET_NFI_QUALITY" />
+
+    </LinearLayout>
+        
+    <LinearLayout
+        android:id="@+id/linearLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+           
+        <Button
+            android:id="@+id/btnCreateANSITemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_CREATE_ANSI_TEMP" />
+
+        <Button
+            android:id="@+id/btnCreateISOTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_CREATE_ISO_TEMP" />
+    	
+        <Button
+            android:id="@+id/btnCompareANSITemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_COMPARE_ANSI_TEMP" />
+    
+        <Button
+            android:id="@+id/btnCompareISOTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_COMPARE_ISO_TEMP" />
+ 
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvANSITemp"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="#ffdddddd"
+            android:singleLine="false"
+    		android:textSize="13sp"
+	        android:text="@string/TEXT_ANSI_CHAR"
+            android:textColor="#ff000000" />
+	        	
+        <TextView
+            android:id="@+id/tvISOTemp"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="#ffdddddd"
+            android:singleLine="false"
+            android:layout_marginLeft="3dp"
+    		android:textSize="13sp"
+	        android:text="@string/TEXT_ISO_CHAR"
+            android:textColor="#ff000000" />
+    	
+        <Button
+            android:id="@+id/btnCompress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_COMPRESS" />
+    
+        <Button
+            android:id="@+id/btnUnCompress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_UNCOMPRESS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout07"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnGetMake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_GET_MAKE" />
+
+
+        <Button
+            android:id="@+id/btnGetModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_GET_MODEL" />
+
+        <Button
+            android:id="@+id/btnGetSN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_GET_SN" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/HAPI_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:text="@string/HAPI_hello" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textSize="13sp"
+            android:layout_weight="0.15"
+            android:text="@string/TEXT_ID" />
+
+        <EditText
+            android:id="@+id/idText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <RadioGroup  
+        android:layout_width="match_parent"  
+        android:layout_height="30dp"  
+        android:orientation="horizontal"
+        android:gravity="center" >  
+            <RadioButton  
+            android:id="@+id/rdoANSI" 
+            android:checked="true" 
+            android:layout_marginRight="30dp"
+            android:textSize="13sp"
+        android:text="@string/TEXT_RADIO_ANSI" />  
+            <RadioButton  
+            android:id="@+id/rdoISO"  
+            android:textSize="13sp"
+            android:text="@string/TEXT_RADIO_ISO" />  
+    </RadioGroup>  
+    <LinearLayout
+        android:id="@+id/linearLayout05"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnEnroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_ENROLL" />
+
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_VERIFY" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_SEARCH" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnDBRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_DB_REFRESH" />
+
+        <Button
+            android:id="@+id/btnDBClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_DB_CLEAR" />
+
+        <Button
+            android:id="@+id/btnRCDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="@string/TEXT_DEL_RECORD" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/imageFinger"
+            android:layout_width="128dp"
+            android:layout_height="180dp"
+            android:contentDescription="@string/TEXT_IMAGE"
+            android:baseline="1dp"/>
+
+        <ListView
+            android:id="@+id/idListView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:contentDescription="@string/DBLinking"
+            android:tag="@string/DBLinking"
+            android:visibility="visible"
+            android:drawSelectorOnTop="true">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
